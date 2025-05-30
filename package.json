@@ -1,0 +1,37 @@
+{
+  "name": "lc-test",
+  "version": "1.0.0",
+  "description": "A comprehensive project template with modern development practices and tools",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "npm run test:unit && npm run test:integration",
+    "test:unit": "echo 'Running unit tests...' && exit 0",
+    "test:integration": "echo 'Running integration tests...' && exit 0",
+    "lint": "echo 'Running linter...' && exit 0",
+    "format": "echo 'Formatting code...' && exit 0",
+    "build": "echo 'Building project...' && exit 0",
+    "clean": "rm -rf dist/ coverage/ .nyc_output/",
+    "docs": "echo 'Generating documentation...' && exit 0"
+  },
+  "keywords": [
+    "template",
+    "project",
+    "development",
+    "nodejs"
+  ],
+  "author": "Ivan Dagelic <dagelic.ivan@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/idagelic/LC-test.git"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
+
